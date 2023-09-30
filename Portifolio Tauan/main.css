@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+.cabecalho ul {
+    padding: 0px !important;
+}
+
+.header-01 {
+    position: relative;
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 70px;
+    margin-left: 120px;
+    margin-right: 120px;
+    max-width: 1600px;
+    margin-bottom: 15px;
+}
+
+.cabecalho {
+    padding: 20px;
+    width: 60%;
+    float: left;
+}
+
+.cabecalho ul li a {
+    color: #9c9c9c;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cabecalho ul li {
+    margin: 47px;
+    display: inline;
+}
+
+.social {
+    padding: 20px;
+    width: 30%;
+    float: right;
+}
+
+.social ul {
+    float: right;
+    margin-right: 110px;
+}
+
+.social ul li {
+    display: inline;
+    padding: 10px;
+}
+
+.social ul li a {
+    text-decoration: none;
+}
+
+.header-02 {
+    position: relative;
+    width: 100%;
+    height: 630px;
+    max-width: 1600px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img {
+    width: 40%;
+    height: 550px;
+    float: right;
+}
+
+#perfil {
+    width: 80%;
+    height: 80%;
+    float: right;
+    border-radius: 50%;
+    margin: 70px 0px 20px 20px;
+}
+
+.descri {
+    width: 60%;
+    height: 550px;
+    float: left;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 140px;
+    margin-left: 150px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #9c9c9c;
+    margin-left: 150px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+}
+
+.header-02 button {
+    margin-left: 150px;
+    height: 60px;
+    width: 35%;
+    padding: 10px 10px 10px 10px;
+    background: #3fb93f;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.header-02 button:hover {
+    background: #1a461a;
+}
+
+h6 {
+    font-size: 18px;
+    color: white;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.tec ul li {
+    display: inline;
+    padding: 58px;
+}
+
+.tec ul {
+    margin-left: 150px;
+    margin-top: 33px;
+}
+
+.tec ul li a img {
+    width: 130px;
+}
